@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore selected web development projects from Alex Carter, showcasing modern UI and clean implementation.">
+  <title>Projects | Alex Carter Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html">Alex Carter</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div id="nav-menu" class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="contact.html">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container page-section">
+    <h1>Projects</h1>
+    <div class="project-grid">
+      <article class="card">
+        <h2>Launchpad Landing</h2>
+        <p>A polished product landing page focused on conversion and responsive layout consistency.</p>
+      </article>
+      <article class="card">
+        <h2>TaskFlow Dashboard</h2>
+        <p>A clean dashboard interface with reusable components and intuitive information hierarchy.</p>
+      </article>
+      <article class="card">
+        <h2>Studio Portfolio</h2>
+        <p>A visual portfolio template featuring smooth interactions and performance-first asset loading.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Alex Carter. All rights reserved.</p>
+  </footer>
+</body>
+</html>
