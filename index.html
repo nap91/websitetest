@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio home page featuring projects, background, and contact information.">
+  <title>Home | Alex Carter Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html">Alex Carter</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div id="nav-menu" class="nav-menu">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="eyebrow">Web Developer & Designer</p>
+      <h1>Building thoughtful digital experiences.</h1>
+      <p>I create modern, fast, and user-centered web interfaces that turn ideas into polished products.</p>
+      <div class="hero-actions">
+        <a class="btn" href="projects.html">View Projects</a>
+        <a class="btn btn-secondary" href="contact.html">Get in Touch</a>
+      </div>
+    </section>
+
+    <section class="highlights container">
+      <article class="card">
+        <h2>Clean Code</h2>
+        <p>Semantic, accessible, and maintainable front-end architecture for long-term scalability.</p>
+      </article>
+      <article class="card">
+        <h2>Performance</h2>
+        <p>Optimized pages with lightweight assets and smooth experiences on all devices.</p>
+      </article>
+      <article class="card">
+        <h2>User Focus</h2>
+        <p>Design decisions grounded in usability, clarity, and delightful interactions.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Alex Carter. All rights reserved.</p>
+  </footer>
+</body>
+</html>
